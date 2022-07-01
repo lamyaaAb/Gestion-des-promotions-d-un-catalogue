@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="506.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.modifsuppcatecontroller">
+   <children>
+      <Label alignment="CENTER" layoutX="34.0" layoutY="47.0" prefHeight="33.0" prefWidth="439.0" text="Modifier ou Supprimer une catégorie" textFill="#1d2026" AnchorPane.leftAnchor="34.0" AnchorPane.rightAnchor="33.0">
+         <font>
+            <Font name="Cambria Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="34.0" layoutY="252.0" prefHeight="17.0" prefWidth="151.0" text="URL de l'image">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="60.0" layoutY="200.0" prefHeight="17.0" prefWidth="125.0" text="Nom de la categorie">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nomcate" layoutX="225.0" layoutY="196.0" prefHeight="25.0" prefWidth="260.0" />
+      <TextField fx:id="urlcate" layoutX="225.0" layoutY="248.0" prefHeight="25.0" prefWidth="260.0" />
+      <Button layoutX="109.0" layoutY="334.0" mnemonicParsing="false" onAction="#modifiercate" prefHeight="33.0" prefWidth="116.0" style="-fx-background-color: #1d2026;" text="Modifier" textFill="#f8f8f8">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="287.0" layoutY="334.0" mnemonicParsing="false" onAction="#supprimercate" prefHeight="33.0" prefWidth="116.0" style="-fx-background-color: #1d2026;" text="Supprimer" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="67.0" layoutY="147.0" prefHeight="17.0" prefWidth="84.0" text="Id categorie">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idcate" layoutX="225.0" layoutY="143.0" prefHeight="25.0" prefWidth="98.0" />
+      <Button layoutX="380.0" layoutY="141.0" mnemonicParsing="false" onAction="#trouvercate" prefHeight="29.0" prefWidth="77.0" style="-fx-background-color: #1d2026;" text="Chercher" textFill="WHITE" />
+   </children>
+</AnchorPane>

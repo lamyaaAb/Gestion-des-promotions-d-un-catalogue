@@ -1,0 +1,32 @@
+
+.categorie-element{
+	-fx-background-color: #FFFFFF;
+	-fx-background-radius: 30 ;
+	}
+	
+.shadow{
+	-fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+	}
+.add-btn{
+  -fx-background-radius:100;
+
+}
+
+.table-view{
+-fx-background-color:white;
+-fx-fill: white;
+}
+.table-view .column-header-background{
+-fx-background-color:white;
+-fx-background-radius:30;
+-fx-background-insets:0 0 10 0;
+-fx-padding : 0 0 10 0 ;
+
+}
+
+.table-view .column-header .label {
+-fx-text-fill: white;
+}
+
+
+

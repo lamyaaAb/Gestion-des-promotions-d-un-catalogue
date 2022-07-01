@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="506.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.insererproduitcontroller">
+   <children>
+      <Label alignment="CENTER" layoutX="100.0" layoutY="27.0" prefHeight="40.0" prefWidth="291.0" text="Insérer un produit" textFill="#1d2026" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="115.0">
+         <font>
+            <Font name="Cambria Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="33.0" layoutY="165.0" prefHeight="17.0" prefWidth="151.0" text="Marque du produit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="32.0" layoutY="128.0" prefHeight="17.0" prefWidth="136.0" text="Nom du produit ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nomprod" layoutX="225.0" layoutY="124.0" prefHeight="25.0" prefWidth="260.0" />
+      <TextField fx:id="marqueprod" layoutX="225.0" layoutY="161.0" prefHeight="25.0" prefWidth="260.0" />
+      <Button layoutX="83.0" layoutY="392.0" mnemonicParsing="false" onAction="#insererprod" prefHeight="29.0" prefWidth="116.0" style="-fx-background-color: #1d2026;" text="Insérer" textFill="#f8f8f8">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="291.0" layoutY="390.0" mnemonicParsing="false" onAction="#viderprod" prefHeight="33.0" prefWidth="116.0" style="-fx-background-color: #1d2026;" text="Vider" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="55.0" layoutY="203.0" text="Quantité du produit ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="236.0" prefHeight="17.0" prefWidth="117.0" text="Prix du produit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="56.0" layoutY="336.0" text="Nom de la catégorie  ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="qtteprod" layoutX="225.0" layoutY="199.0" prefHeight="25.0" prefWidth="260.0" />
+      <TextField fx:id="prixprod" layoutX="225.0" layoutY="232.0" prefHeight="25.0" prefWidth="260.0" />
+      <ComboBox fx:id="id" layoutX="225.0" layoutY="332.0" prefHeight="25.0" prefWidth="260.0" />
+      <Label layoutX="58.0" layoutY="270.0" text="Type du produit">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="305.0" text="Url image">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="typeprod" layoutX="225.0" layoutY="266.0" prefHeight="25.0" prefWidth="260.0" />
+      <TextField fx:id="urlimageprod" layoutX="225.0" layoutY="301.0" prefHeight="25.0" prefWidth="260.0" />
+   </children>
+</AnchorPane>
